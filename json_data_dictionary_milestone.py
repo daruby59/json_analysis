@@ -1,6 +1,4 @@
 from __future__ import division
-import urllib2
-import math
 import json
 import sys
 #
@@ -19,8 +17,6 @@ def main() :
     sub_sub_keys = []
     # ---------------------------------------------------------------
     # ID the key fields
-    #
-    # input_main[i]['demographics']['education']['educationBachelorOrGreater']*100,2))
     #
     h = open(xfile+"_bdf3.html","w+")
     h.write("<html>\n")
